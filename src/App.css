@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
 
-
 *{
   margin: 0;
   padding: 0;
+  background-color: #000;
 }
 
 body{
@@ -16,19 +16,23 @@ body{
 }
 
 .digitalClock-container{
+  background-color: #fff !important;
   width: 600px;
-  border: 2px solid black;
+  border: 2px solid #fff;
   text-align: center;
   border-radius: 8px;
   padding: 20px 0;
+  
 }
 
 h1{
+  background-color: #fff !important;
   font-size: 60px;
   text-transform: uppercase;
 }
 
 .time{
+  background-color: #fff !important;
   padding: 5px 0;
   font-size: 35px;
   font-weight: 500;
@@ -39,13 +43,16 @@ h1{
   font-size: 35px;
   font-weight: 500;
   text-transform: uppercase;
+  background-color: #fff;
 }
 
 p{
   padding-top: 10px;
   font-size: 14px;
+  background-color: #fff;
 }
 
 span{
   font-weight: 600;
+  background-color: #fff;
 }
