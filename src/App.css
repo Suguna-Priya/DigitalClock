@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: "Titillium Web", sans-serif;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.digitalClock-container{
+  width: 600px;
+  border: 2px solid black;
+  text-align: center;
+  border-radius: 8px;
+  padding: 20px 0;
+}
+
+h1{
+  font-size: 60px;
+  text-transform: uppercase;
+}
+
+.time{
+  padding: 5px 0;
+  font-size: 35px;
+  font-weight: 500;
+}
+
+.date{
+  padding: 5px 0;
+  font-size: 35px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+p{
+  padding-top: 10px;
+  font-size: 14px;
+}
+
+span{
+  font-weight: 600;
+}
